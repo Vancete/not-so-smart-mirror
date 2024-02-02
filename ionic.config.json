@@ -1,0 +1,7 @@
+{
+  "name": "Not so Smart Mirror",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
