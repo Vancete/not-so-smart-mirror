@@ -1,0 +1,12 @@
+.clock-widget {
+  @apply flex w-full justify-center my-8;
+
+  label {
+    font-size: 12rem;
+    line-height: 11rem;
+  }
+
+  .minutes {
+    @apply font-thin ml-6;
+  }
+}

@@ -1,0 +1,51 @@
+.weather-widget {
+  @apply flex justify-between;
+
+  .main-data {
+    @apply flex;
+
+    .info {
+      @apply flex flex-col items-start;
+
+      label:nth-child(1) {
+        font-size: 4.8rem;
+        font-weight: 300;
+        line-height: 4.8rem;
+        margin-top: 0.8rem;
+        margin-left: 0rem;
+      }
+
+      label {
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        margin-left: 0.4rem;
+      }
+    }
+
+    .icon {
+      & > img {
+        width: 10rem;
+      }
+    }
+  }
+
+  .day-data {
+    @apply flex flex-col mr-4 justify-center;
+    gap: 0.4rem;
+    margin-bottom: 0.4rem;
+
+    & > div {
+      @apply flex flex-col items-center;
+
+      img {
+        height: 3.6rem;
+      }
+
+      label {
+        font-size: 1.2rem;
+        line-height: 0.4rem;
+        font-weight: 500;
+      }
+    }
+  }
+}

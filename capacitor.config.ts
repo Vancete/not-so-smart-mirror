@@ -5,7 +5,12 @@ const config: CapacitorConfig = {
   appName: 'Not so Smart Mirror',
   webDir: 'dist',
   server: {
-    androidScheme: 'https'
+    androidScheme: 'https',
+  },
+  plugins: {
+    CapacitorHttp: {
+      enabled: true
+    }
   }
 };
 
